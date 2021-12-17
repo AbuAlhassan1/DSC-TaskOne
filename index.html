@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskOne</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #gender{
+            display: inline-block;
+        }
+        input{
+            margin-bottom: 5px;
+        }
+        table{
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        td{
+            border: solid 2px black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="borderc ">
+        <thead>
+            <tr class="">
+                <td>Name</td>
+                <td>Age</td>
+                <td>Branch</td>
+                <td>Grade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ahmed</td>
+                <td>18</td>
+                <td>computer eng</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>ahmed</td>
+                <td>18</td>
+                <td>computer eng</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>ahmed</td>
+                <td>18</td>
+                <td>computer eng</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="">
+        <label for="first-name">first name</label>
+        <input type="text" id="first-name">
+        <label for="last-name">last name</label>
+        <input type="text" id="last-name">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label >Gender</label>
+        <input type="radio" id="gender">
+        <input type="radio" id="gender">
+        <label for="password">password</label>
+        <input type="password" id="password">
+        <label for="re-password">rewrite the password</label>
+        <input type="re-password" id="re-password">
+        <input type="submit">
+    </form>
+</body>
+</html>
